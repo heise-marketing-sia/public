@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laipni lūdzam heise marketing!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        
+        .header {
+            background: #14315B;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        
+        .logo strong {
+            font-weight: 700;
+        }
+        
+        .header-title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .greeting {
+            font-size: 18px;
+            color: #14315B;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .intro {
+            font-size: 16px;
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            color: #14315B;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #14315B;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        ul li {
+            padding: 6px 0 6px 25px;
+            position: relative;
+            line-height: 1.5;
+        }
+        
+        ul li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #14315B;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .contact-box {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            text-align: center;
+        }
+        
+        .contact-box h3 {
+            color: #14315B;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        
+        .contact-info {
+            font-size: 15px;
+            line-height: 1.8;
+        }
+        
+        .contact-info strong {
+            color: #14315B;
+        }
+        
+        .footer {
+            background: #14315B;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .header {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <strong>//</strong> heise marketing
+            </div>
+            <h1 class="header-title">Laipni lūdzam!</h1>
+        </div>
+        
+        <!-- Content -->
+        <div class="content">
+            <p class="greeting">Labdien [Klienta uzņēmuma nosaukums]!</p>
+            
+            <p class="intro">
+                Paldies, ka izvēlējāties digitālās klātbūtnes pārvaldību. Priecājamies par sadarbību nākamos 12+ mēnešus!
+            </p>
+            
+            <!-- What's happening -->
+            <div class="section">
+                <h2 class="section-title">Kas notiek tūlīt?</h2>
+                <p>Jūsu speciālists <strong>[speciālista vārds]</strong> jau strādā:</p>
+                <ul>
+                    <li>Analizējam jūsu digitālo klātbūtni</li>
+                    <li>Izpētām nozari un konkurentus</li>
+                    <li>Gatavojam jautājumus kick-off sarunai</li>
+                </ul>
+            </div>
+            
+            <!-- Kick-off importance -->
+            <div class="info-box">
+                <h3 class="section-title">Kick-off saruna – galvenais solis</h3>
+                <p style="margin-bottom: 12px;"><strong>Mērķis:</strong> Vienreiz savākt visu nepieciešamo, lai pēc tam strādātu patstāvīgi visu gadu.</p>
+                <p><strong>Ilgums:</strong> 30-45 minūtes</p>
+                <p><strong>Kad:</strong> [Speciālists sazināsies 1-3 darba dienu laikā]</p>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Ko apspriedīsim:</h2>
+                <ul>
+                    <li>Jūsu unikālās vērtības un mērķauditoriju</li>
+                    <li>Pieejamos vizuālos materiālus</li>
+                    <li>Galvenos pakalpojumus/produktus</li>
+                    <li>Sezonālās aktivitātes vai nozares specifiku</li>
+                </ul>
+            </div>
+            
+            <div class="info-box">
+                <p><strong>Rezultāts pēc sarunas:</strong></p>
+                <p style="margin-top: 10px;">Mēs zinām pietiekami, lai katru mēnesi patstāvīgi veidotu optimizētus profilus 20+ platformās, regulāru saturu un uzlabojumus.</p>
+            </div>
+            
+            <!-- How we'll work -->
+            <div class="section">
+                <h2 class="section-title">Kā strādāsim gadu?</h2>
+                <ul>
+                    <li><strong>Pirmās 2 nedēļas:</strong> Detalizēta kick-off saruna + izpēte</li>
+                    <li><strong>Mēneši 1-12+:</strong> Pilna profilu pārvaldība, saturs, optimizācija</li>
+                    <li><strong>Jūsu loma:</strong> Minimāla – informējat par būtiskām izmaiņām</li>
+                    <li><strong>Katru mēnesi:</strong> Saņemat atskaiti par paveikto</li>
+                </ul>
+            </div>
+            
+            <div class="info-box">
+                <p style="font-size: 16px;"><strong>Jūsu priekšrocība:</strong></p>
+                <p style="margin-top: 10px;">Pēc kick-off varat atgriezties pie sava biznesa – mēs pārņemam digitālo klātbūtni. Protams, vienmēr priecāsimies par jaunumiem, bet tas nav obligāti.</p>
+            </div>
+            
+            <!-- Contact -->
+            <div class="contact-box">
+                <h3>Jūsu kontakts</h3>
+                <div class="contact-info">
+                    <p><strong>[Speciālista vārds, uzvārds]</strong></p>
+                    <p><strong>[Speciālista tālrunis]</strong></p>
+                    <p><strong>[Speciālista e-pasts]</strong></p>
+                </div>
+            </div>
+            
+            <!-- Questions -->
+            <div class="section">
+                <h2 class="section-title">Jautājumi?</h2>
+                <p>Droši sazinieties – esam šeit!</p>
+                <p style="margin-top: 10px;">
+                    Atbildiet uz šo e-pastu vai zvaniet: <strong>67770711</strong>
+                </p>
+            </div>
+            
+            <p style="text-align: center; margin-top: 30px; font-size: 16px; color: #14315B;">
+                <strong>Ar cieņu,<br>heise marketing komanda</strong>
+            </p>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>SIA "heise marketing"</strong></p>
+            <p>Blaumaņa iela 38/40, Rīga, LV-1011</p>
+            <p>www.heisemarketing.lv | 67770711</p>
+            <p style="margin-top: 15px; font-size: 12px; opacity: 0.8;">
+                © 2025 heise marketing. Visas tiesības aizsargātas.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
